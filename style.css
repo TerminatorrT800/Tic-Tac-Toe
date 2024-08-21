@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.board {
+    height: 1000px;
+    width: 1000px;
+    border: 2px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 332px;
+    height: 332px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    user-select: none;
+}
+
+dialog[open]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.okBTN, #reset{
+    font-size: 20px;
+    background-color: rgb(221, 241, 234);
+    border-radius: 5px;
+    border: none;
+    padding: 8px 16px;
+    outline: none;
+}
+
+.message{
+    font-size: 40px;
+    font-style: italic;
+    color: gray;
+    font-weight: 600;
+}
