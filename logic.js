@@ -119,7 +119,6 @@ function createPlayer(name, mark) {
     };
 }
 
-// Factory function for creating a cell
 function createCell(id) {
     let mark = "";
 
@@ -151,7 +150,7 @@ function createCell(id) {
     };
 }
 
-// Factory function for managing the game
+
 function createGame(playerOne, playerTwo) {
     let currentPlayer = playerOne;
     let cells = [];
